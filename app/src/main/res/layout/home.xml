@@ -4,21 +4,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#070707"
     android:layout_height="match_parent">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="sadasadsa"
 
-        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
-        android:backgroundTint="@color/black"
-        tools:ignore="MissingConstraints" />
-    <Button
+    <android.widget.Button
         android:id="@+id/button"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:text="button"
+        android:text="Thi Ngay"
+        android:textSize="25dp"
+        android:textColor="#ff9dfb"
+        android:shadowColor="#ff9dfb"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:fontFamily="sans-serif-medium"
         android:background="@drawable/home_editbutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,42 +29,70 @@
 
 
 
-    <Button
+    <android.widget.Button
         android:id="@+id/button2"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:text="Button"
+        android:text="Luyện Tập"
+        android:textColor="#ff9dfb"
+        android:textSize="25dp"
+        android:shadowColor="#ff9dfb"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:fontFamily="sans-serif-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.885"
-        android:background="@drawable/radius"
+        android:background="@drawable/home_editbutton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.593" />
 
-    <Button
+    <android.widget.Button
         android:id="@+id/button3"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:text="Button"
+        android:text="Trợ giúp"
+        android:textSize="25dp"
+        android:textColor="#8adbf9"
+        android:shadowColor="#5ebaf9"
+        android:shadowDy="10"
+        android:shadowRadius="10"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.145"
-        android:background="@drawable/radius"
+        android:background="@drawable/home_editbutton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.903" />
 
-    <Button
+    <android.widget.Button
         android:id="@+id/button4"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:text="Button"
+        android:text="Thoát"
+        android:textColor="#8adbf9"
+        android:textSize="25dp"
+        android:shadowColor="#5ebaf9"
+        android:shadowDy="10"
+        android:shadowRadius="10"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:background="@drawable/radius"
+        android:background="@drawable/home_editbutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.885"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.903" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:src="@drawable/back1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
