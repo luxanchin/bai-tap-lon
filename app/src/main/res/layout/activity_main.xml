@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_weight="10"
+    android:background="#252c4a"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textColor="#949dc5"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#838cb3"
+                android:text="Question" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:textColor="#838cb3"
+                android:text="1/10" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bản 'Tuyên Ngôn Độc Lập' được Bác đọc vào năm nào?"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:lineHeight="30dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:background="@drawable/radius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="1945"
+                android:paddingLeft="20px"
+                android:textSize="25dp"/>
+            <RadioButton
+                android:background="@drawable/radius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="1968"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20px"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"/>
+            <RadioButton
+                android:background="@drawable/radius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="1978"
+                android:paddingLeft="20px"
+                android:textSize="25dp"/>
+
+        </RadioGroup>
+        <Button
+
+            android:layout_width="match_parent"
+            android:background="@drawable/radius"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#107eeb"
+            />
+
+    </LinearLayout>
+</LinearLayout>
